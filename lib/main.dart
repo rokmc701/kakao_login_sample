@@ -12,8 +12,8 @@ void main() {
 
   // runApp() 호출 전 Flutter SDK 초기화
   KakaoSdk.init(
-    nativeAppKey: 'd8297c072ac2088b326476311a7346cc', // 앱키 설정
-    javaScriptAppKey: 'a6c4b07d8205201849e3e2eeaf74f52c', // 자바스크립트 앱키 설정
+    nativeAppKey: 'db660e6f5e9d223fd4f65951360bb32c', // 앱키 설정
+    javaScriptAppKey: '3a9b1545257d92dc03250523f85f3c17', // 자바스크립트 앱키 설정
   );
   runApp(
     ChangeNotifierProvider(
